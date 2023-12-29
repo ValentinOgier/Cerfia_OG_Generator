@@ -48,15 +48,14 @@ export function Tips({ open, setOpen }: TipsProps) {
                 as="h3"
                 className="text-lg leading-6 font-medium text-gray-900"
               >
-                Tips on usage:
+                Quelques petits tips :
               </Dialog.Title>
               <ul className="mt-4 text-sm text-gray-500 list-inside list-disc space-y-2">
                 <li>
-                  To override default values and hide an element, pass a single
-                  space character (' ') as its input.
+                  Pour remplacer les valeurs par défaut et cacher un élément, utilisez un espace (' ') comme valeur.
                 </li>
                 <li>
-                  All fields which accept image URLs, accept emojis as well!
+                  Tous les champs qui acceptent des URLs d'images acceptent également les emojis !
                 </li>
               </ul>
 
@@ -65,7 +64,7 @@ export function Tips({ open, setOpen }: TipsProps) {
                 className="mt-5 sm:mt-6 inline-flex justify-center w-full rounded-full border border-transparent shadow-sm px-4 py-2 bg-primary-600 text-base font-medium text-white hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 sm:text-sm"
                 onClick={() => setOpen(false)}
               >
-                Got it!
+                C'est noté !
               </button>
             </div>
           </Transition.Child>

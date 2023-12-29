@@ -34,16 +34,7 @@ export function Footer() {
         </li>
       </ul>
       <p className="mt-4 text-center text-sm text-gray-500 [&>a]:underline-offset-2 [&>a:hover]:text-primary-500">
-        © {new Date().getFullYear()} Anurag Roy. Built with{' '}
-        <a href="https://nextjs.org/" target="_blank">
-          Next.js
-        </a>{' '}
-        and hosted on{' '}
-        <a href="https://vercel.com" target="_blank">
-          Vercel
-        </a>
-        .
-      </p>
+        © {new Date().getFullYear()} Cerfia Composer — Développé avec le ❤️ en 🇫🇷 par Valentin OGIER.</p>
     </footer>
   );
 }
