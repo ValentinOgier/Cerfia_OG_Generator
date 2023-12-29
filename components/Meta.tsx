@@ -1,12 +1,11 @@
 import Head from 'next/head';
 
 export function Meta() {
-  const siteUrl = 'https://og.anuragroy.dev';
+  const siteUrl = 'https://cerfia-og-generator.vercel.app';
   const title =
-    'og.anuragroy.dev - OpenGraph Image Generator for anuragroy.dev';
+    'Cerfia OG Composer';
   const description =
-    'Generate dynamic OpenGraph images on the edge using @vercel/og and Vercel Edge functions.';
-  const ogImageLink = 'https://og.anuragroy.dev/og.png';
+    'OG Composer for Cerfia';
 
   return (
     <Head>

@@ -77,14 +77,14 @@ export function Main() {
           <p className="text-sm font-medium text-gray-700">Preview</p>
           <img
             src={imageUrl}
-            alt="Generated OG image preview"
+            alt="Prévisualisation de l'image OG"
             loading="lazy"
             className="mt-1 rounded-lg aspect-[1200/630] w-full"
           />
         </div>
         <div>
           <div className="flex justify-between items-end">
-            <p className="text-sm font-medium text-gray-700">Generated URL</p>
+            <p className="text-sm font-medium text-gray-700">URL Générée</p>
             <CopyButton textToCopy={imageUrl} />
           </div>
           <code className="block mt-2 p-4 bg-gray-200 break-all select-all rounded-lg">

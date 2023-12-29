@@ -19,7 +19,7 @@ export function CopyButton({ textToCopy }: CopyButtonProps) {
       }, 1000);
     } catch (error) {
       alert(
-        'Sorry, cannot copy URL to your clipboard. Please select and copy the URL manually.'
+        'Désolé, impossible de copier l\'URL dans votre presse-papiers. Veuillez sélectionner et copier l\'URL manuellement.'
       );
     }
   };
@@ -35,7 +35,7 @@ export function CopyButton({ textToCopy }: CopyButtonProps) {
             className="-ml-0.5 mr-2 h-4 w-4"
             aria-hidden="true"
           />
-          Copy
+          Copier
         </>
       ) : (
         <>
@@ -43,7 +43,7 @@ export function CopyButton({ textToCopy }: CopyButtonProps) {
             className="-ml-0.5 mr-2 h-4 w-4"
             aria-hidden="true"
           />
-          Copied!
+          Copié !
         </>
       )}
     </button>
